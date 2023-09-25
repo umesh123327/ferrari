@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 [200~#!/usr/bin/env groovy
+=======
+#!/usr/bin/env groovy
+>>>>>>> b3876bd42d3143f9d46886a09cdc1f9af78dbc87
 pipeline {
     agent { node { label 'swarm-ci' } }
 
@@ -145,6 +149,10 @@ pipeline {
 
         failure {
             bitbucketStatusNotify buildState: "FAILED"
-        }
-    }
+          }
 }
+
+
+
+# First pipeline
+
