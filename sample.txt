@@ -1,7 +1,4 @@
  hello guys welcome  
 
 THIS IS TEST THE FILE 
-
-hello 
-
-hello
+this is umesh  pull request firts
